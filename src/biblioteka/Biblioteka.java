@@ -4,9 +4,14 @@ import java.util.LinkedList;
 import java.util.List;
 
 import biblioteka.inrterfejs.BibliotekaInterface;
-
+/**
+ * Ova klasa implementira interfejs BibliotekaInterfejs
+ */
 public class Biblioteka implements BibliotekaInterface {
 
+	/**
+	 * Lista sa svim knjigama u biblioteci
+	 */
 	//Head i druga verzija se razlikuju po komentarima i znakovima <<<<<<< i ======
 	private  List<Knjiga> knjige = new LinkedList<>();
 	
