@@ -22,9 +22,10 @@ public class Biblioteka implements BibliotekaInterface {
 			throw new NullPointerException("NE sme biti null");
 		if(knjige.contains(knjiga))
 			throw new RuntimeException("Knjiga vec postoji");
-
-		knjige.add(knjiga);
-
+ 
+		knjige.add(knjiga); 
+		
+  
 	}
 
 	
